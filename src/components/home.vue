@@ -11,6 +11,7 @@ export default {
   methods: {
     jumpTo () {
       this.$router.push({path:'/list/1'})
+      console.log(this)
     }
   }
 }
